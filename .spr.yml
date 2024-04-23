@@ -1,0 +1,8 @@
+githubRepoOwner: alexmirrington
+githubRepoName: bazel-template
+githubHost: github.com
+requireChecks: true
+requireApproval: false
+mergeMethod: rebase
+mergeQueue: false
+forceFetchTags: false
