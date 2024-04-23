@@ -1,0 +1,7 @@
+.git
+.github
+.mypy_cache
+.trunk
+.venv
+.vscode
+
