@@ -32,7 +32,7 @@ jobs:
         uses: bazelbuild/setup-bazelisk@b39c379c82683a5f25d34f0d062761f62693e0b2 # v3
 
       - name: 💾 Mount Bazel cache
-        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
           path: ~/.cache/bazel
           key: bazel-cache-${{ hashFiles('.bazelignore', '.bazelrc', '.bazelversion', 'WORKSPACE', 'WORKSPACE.bazel', 'MODULE.bazel', '**/*.bzl' ) }}
